@@ -5,10 +5,14 @@ import "./post-status-filter.css";
 const PostStatusFilter = () => {
   return (
     <div className="btn-group">
-      <button className="btn btn-outline-secondary">
+      <button 
+        type="button"
+        className="btn btn-info">
         All
       </button>
-      <button className="btn btn-outline-secondary">
+      <button 
+        type="button"
+        className="btn btn-outline-secondary">
         Liked
       </button>
     </div>
